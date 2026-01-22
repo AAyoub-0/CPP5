@@ -6,12 +6,14 @@
 /*   By: aboumall <aboumall42@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 20:44:10 by aboumall          #+#    #+#             */
-/*   Updated: 2026/01/22 20:45:34 by aboumall         ###   ########.fr       */
+/*   Updated: 2026/01/22 21:02:00 by aboumall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef INTERN_HPP
 #define INTERN_HPP
+
+#define nullptr 0
 
 #include "AForm.hpp"
 #include "ShrubberyCreationForm.hpp"
