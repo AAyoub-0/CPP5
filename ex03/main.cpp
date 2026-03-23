@@ -6,7 +6,7 @@
 /*   By: aboumall <aboumall42@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 04:04:03 by aboumall          #+#    #+#             */
-/*   Updated: 2026/01/22 20:55:50 by aboumall         ###   ########.fr       */
+/*   Updated: 2026/03/23 16:04:53 by aboumall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,7 @@ int main() {
 
 		print_space();
 
+		delete test;
 		test = someIntern.makeForm("shrubbery creation", "Home");
 		
 		print_space();
@@ -92,6 +93,7 @@ int main() {
 
 		print_space();
 
+		delete test;
 		test = someIntern.makeForm("presidential pardon", "Fry");
 		
 		print_space();
@@ -101,6 +103,7 @@ int main() {
 
 		print_space();
 
+		delete test;
 		test = someIntern.makeForm("unknown form", "Target");
 
 		print_space();

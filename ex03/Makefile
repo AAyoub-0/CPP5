@@ -6,7 +6,7 @@
 #    By: aboumall <aboumall42@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/13 15:52:18 by aboumall          #+#    #+#              #
-#    Updated: 2026/01/22 20:43:22 by aboumall         ###   ########.fr        #
+#    Updated: 2026/03/23 16:01:32 by aboumall         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ TARGET = intern
 
 CXX = c++
 
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 
 SRC = Bureaucrat.cpp AForm.cpp PresidentialPardonForm.cpp \
 		RobotomyRequestForm.cpp ShrubberyCreationForm.cpp Intern.cpp main.cpp
