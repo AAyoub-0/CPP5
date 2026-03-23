@@ -6,7 +6,7 @@
 /*   By: aboumall <aboumall42@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 04:01:36 by aboumall          #+#    #+#             */
-/*   Updated: 2026/01/22 20:25:52 by aboumall         ###   ########.fr       */
+/*   Updated: 2026/03/23 15:49:37 by aboumall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ void Bureaucrat::signForm(Form &form) {
 		std::cout << _name << " signed " << form.getName() << std::endl;
 	}
 	catch (const std::exception &e) {
-		std::cout << _name << " couldn't sign " << form.getName() << " because " << e.what() << std::endl;
+		std::cout << _name << " couldn't sign " << form.getName() << " because : " << e.what() << std::endl;
 		return;
 	}
 }
